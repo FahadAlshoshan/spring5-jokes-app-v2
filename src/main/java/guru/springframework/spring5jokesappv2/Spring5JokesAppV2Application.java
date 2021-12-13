@@ -13,6 +13,6 @@ public class Spring5JokesAppV2Application {
 
     JokeController jokeController = (JokeController) ctx.getBean("jokeController");
 
-   System.out.println( jokeController.getJoke());
+   //System.out.println( jokeController.getJoke());
   }
 }
